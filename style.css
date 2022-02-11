@@ -1,0 +1,86 @@
+.app {
+    background-color: #2f2f2f;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+p {
+    font-size: 1rem;
+}
+
+.banner {
+    opacity: 0;
+    color: #ffffff;
+    width: 22rem;
+    border-radius: 8px;
+}
+.thank-you, .banner {
+    background: url('./Zadanie-pre-programtora/2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -500%);
+}
+.thank-you {
+    background: url('./Zadanie-pre-programtora/1.png');
+    background-size: cover;
+    width: 25rem;
+    color: #ffffff;
+    text-align: center;
+    transform: translate(-50%, -500%);
+}
+    
+.banner .banner-layer {
+    padding: 0 1rem;
+}
+.banner .slogan {
+    text-align: center;
+    margin-top: 14rem;  
+}
+.banner .banner-form input, .banner .banner-form button {    
+    outline: 0;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    margin: .5rem 0;
+    border: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.banner .banner-form button {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgba(239,184,0,1) 0%, rgba(245,111,26,1) 100%);
+}
+.banner .banner-form {
+    padding-bottom: 1rem;
+}
+
+.banner .banner-form input.invalid {
+    border: 1px solid red;
+    background-color: rgb(254, 217, 217);
+}
+
+.move-in {
+    animation: move-in .8s ease both;
+}
+.move-out {
+    display: none;
+}
+
+@media ( max-width: 400px ) {
+    .banner, .thank-you {
+        width: 96%;
+    }
+}
+
+@keyframes move-in {
+    0% { opacity: 0; transform: translate(-50%, -60%);}
+    100% { opacity: 1; transform: translate(-50%, -50%); }
+}

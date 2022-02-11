@@ -1,0 +1,15 @@
+Úlohou je vytvoriť weblayer (banner) podľa ľubovoľného z troch dodaných vizuálov. Banner obsahuje obrázok v pozadí, nadpis, popis, formulár.
+- Vytvorte .html súbor so základnou štruktúrou (html, head, body). Tak, aby sa weblayer dal otvoriť a pozrieť priamo v prehliadači.
+- Weblayer sa skladá z HTML, CSS a JavaScript. Ideálne všetko v <html>. Pokiaľ možno, nepoužívajte 3rd party CSS alebo JS knižnice.
+- Rozmery a farby sa snažte dodržať podľa grafickej predlohy. Ale nie je nutné pixel-perfect. Font zvoľte niektorý z bežných a veľkosť stačí odhadnúť.
+- Banner sa môže zobraziť na stránke s efektom, napr. priletí z prava.
+- Je nutné overovať formát emailovej adresy.
+- Po odoslaní formuláru by sa mali formulárové polia a tlačidlo schovať a zobrazí sa "thank you message".
+- Hodnoty zadané do formuláru po odoslaní vypíšte do konzoli v prehliadači (console.log()).
+
+Pri hodnotení sa bude prihliadať na:
+- dodržanie dizajnu,
+- zobrazenie na desktope aj mobilných zariadeniach (responzivita),
+- funkčnosť, overovanie vstupných hodnôt,
+- validita kódu,
+- formátovanie zdrojového kódu.
